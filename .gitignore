@@ -5,3 +5,4 @@ bin
 bin/*
 lib
 *.gz
+kaggle.json
