@@ -1,0 +1,21 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "FastAPI Debug",
+            "type": "python",
+            "request": "launch",
+            "module": "uvicorn",
+            "args": [
+                "./50_potato_disease/api/main:app",  // Replace "main" with your main file name if different
+                "--host",
+                "localhost",
+                "--port",
+                "8000",
+                "--reload"  // Optional: Enable auto-reload on code changes
+            ],
+            "jinja": true,
+            "justMyCode": false
+        }
+    ]
+}

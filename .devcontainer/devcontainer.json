@@ -43,5 +43,6 @@
   },
   "forwardPorts": [],
   // "postCreateCommand": "source pip install -r ./requirements.txt",
-  "remoteUser": "vscode"
+  "remoteUser": "vscode",
+  "postCreateCommand": "mkdir -p ~/.kaggle && cp /workspaces/keras-exercise/kaggle.json ~/.kaggle/ && chmod 600 ~/.kaggle/kaggle.json"
 }
